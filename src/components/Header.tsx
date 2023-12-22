@@ -11,7 +11,7 @@ const Header = () => {
         href="/home"
       >
         <Image src={logo} alt="logo" priority />
-        <span className="text-xl font-medium">Dooit</span>
+        <span className="text-xl font-medium">Dooist</span>
       </Link>
     </header>
   );

@@ -4,7 +4,7 @@ import { NextSeo } from "next-seo";
 export default function ToDoListPage() {
   return (
     <>
-      <NextSeo title="Todo List | Dooit" description="Your todo list" />
+      <NextSeo title="Todo List | Dooist" description="Your todo list" />
       <ToDoList />
     </>
   );

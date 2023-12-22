@@ -4,8 +4,8 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Dooit",
-    "short_name": "Dooit",
+    "name": "Dooist",
+    "short_name": "Dooist",
     "description": "Easy Peasy Todolist",
     "icons": [
         {

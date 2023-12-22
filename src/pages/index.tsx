@@ -5,8 +5,8 @@ export default function WelcomePage() {
   return (
     <>
       <NextSeo
-        title="Welcome to Easy Peasy TodoList | Dooit"
-        description="Welcome to Dooit"
+        title="Welcome to Easy Peasy TodoList | Dooist"
+        description="Welcome to Dooist"
       />
       <Welcome />
     </>

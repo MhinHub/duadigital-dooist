@@ -30,13 +30,13 @@ export default function Document() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Dooit" />
+        <meta property="og:title" content="Dooist" />
         <meta property="og:description" content="Easy Peasy Todo List" />
-        <meta property="og:site_name" content="Dooit" />
-        <meta property="og:url" content="https://duadigital-dooit.vercel.app" />
+        <meta property="og:site_name" content="Dooist" />
+        <meta property="og:url" content="https://dooist.vercel.app" />
         <meta
           property="og:image"
-          content="https://duadigital-dooit.vercel.app/icons/apple-touch-icon.png"
+          content="https://dooist.vercel.app/icons/apple-touch-icon.png"
         />
       </Head>
       <body>

@@ -9,7 +9,7 @@ const Welcome = () => {
       <div className="flex h-full flex-col items-center justify-center gap-7 text-white">
         <div className="flex flex-col items-center justify-center gap-2">
           <Image src={icon} alt="icon" />
-          <span className="text-center text-4xl font-medium">Dooit</span>
+          <span className="text-center text-4xl font-medium">Dooist</span>
         </div>
         <div className="animate-in slide-in-from-bottom-10 fade-in-0 flex flex-col items-center justify-center text-xl font-extralight tracking-wide duration-500 ease-out">
           <p>Write what you need to do.</p>
