@@ -213,7 +213,7 @@ const ToDoList = () => {
           </div>
         </div>
       </div>
-      <div className="mx-2 mb-5 border-t-2 430:mx-4">
+      <div className="mx-4 mb-5 border-t-2">
         <h3 className="md:text-center my-6 mb-4 text-xl">Choose a label</h3>
         <div className="flex flex-wrap items-center justify-center gap-3">
           {LabelList.map((val, idx) => {

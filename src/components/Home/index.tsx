@@ -39,10 +39,11 @@ const Home = () => {
         {allTodos?.length === 0 ? (
           <div className="flex h-full w-full flex-col items-center justify-center">
             <Image
-              src="/assets/Home.png"
+              src="/assets/Home.svg"
               height={227}
               width={430}
               alt="home-illustration"
+              priority
             />
             <div className="mt-6 flex flex-col items-center justify-center">
               <p className="text-lg font-normal">
@@ -73,7 +74,7 @@ const Home = () => {
             </div>
             <button
               onClick={() => push(`/todo-list?id=${uuid()}`)}
-              className="animate-in slide-in-from-right-96 absolute bottom-8 right-8 z-10 rounded-full bg-black p-6 ease-out"
+              className="animate-in slide-in-from-right-96 absolute bottom-8 right-8 z-10 rounded-full bg-black p-6 duration-700 ease-out"
             >
               <Image src={plus} alt="plus-icon" className="w-6" priority />
             </button>

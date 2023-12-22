@@ -11,7 +11,7 @@ const Welcome = () => {
           <Image src={icon} alt="icon" />
           <span className="text-center text-4xl font-medium">Dooist</span>
         </div>
-        <div className="animate-in slide-in-from-bottom-10 fade-in-0 flex flex-col items-center justify-center text-xl font-extralight tracking-wide duration-500 ease-out">
+        <div className="animate-in slide-in-from-bottom-10 fade-in-0 flex flex-col items-center justify-center text-xl font-extralight tracking-wide duration-700 ease-out">
           <p>Write what you need to do.</p>
           <p>Everyday.</p>
         </div>
