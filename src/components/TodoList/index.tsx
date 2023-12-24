@@ -133,13 +133,13 @@ const ToDoList = () => {
       <div className="flex flex-col">
         <button
           onClick={() => back()}
-          className="animate-in fade-in-10 m-4 text-2xl font-bold duration-700"
+          className="m-4 text-2xl font-bold duration-700 animate-in fade-in-10"
         >
           <Image src={arrowLeft} alt="back" priority />
         </button>
         <div className="md:mx-auto">
           <input
-            className="animate-in fade-in-5 ml-5 mt-5 text-2xl font-medium outline-none duration-200 placeholder:text-black"
+            className="ml-5 mt-5 text-2xl font-medium outline-none transition duration-700 animate-in fade-in-5 placeholder:text-black"
             placeholder="Title"
             onBlur={(e) => handleTitleChange(groupId || "", e.target.value)}
             defaultValue={editedTitle}
@@ -151,7 +151,7 @@ const ToDoList = () => {
                   return (
                     <div
                       key={val.id}
-                      className="animate-in slide-in-from-bottom-10 fade-in-0 ml-5 mr-2 mt-5 flex items-center space-x-3"
+                      className="ml-5 mr-2 mt-5 flex items-center space-x-3 animate-in fade-in-0 slide-in-from-bottom-10"
                     >
                       <button
                         onClick={() =>
@@ -214,7 +214,7 @@ const ToDoList = () => {
         </div>
       </div>
       <div className="mx-4 mb-5 border-t-2">
-        <h3 className="md:text-center my-6 mb-4 text-xl">Choose a label</h3>
+        <h3 className="my-6 mb-4 text-xl md:text-center">Choose a label</h3>
         <div className="flex flex-wrap items-center justify-center gap-3">
           {LabelList.map((val, idx) => {
             return (

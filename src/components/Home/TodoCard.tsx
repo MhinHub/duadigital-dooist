@@ -20,7 +20,7 @@ const ToDoCard = ({
             : label === "Personal"
               ? "bg-[#FFF6E7]"
               : "bg-[#1919]"
-      } animate-in fade-in-80 flex w-full flex-col justify-start rounded-2xl p-4 ring-current ring-opacity-20 duration-500 ease-out hover:ring-1`}
+      } flex w-full flex-col justify-start rounded-2xl p-4 ring-current ring-opacity-20 duration-1000 ease-out animate-in fade-in-80 hover:ring-1`}
       href={`/todo-list?id=${id}`}
     >
       <p className="line-clamp-1 w-full text-start text-xl">
