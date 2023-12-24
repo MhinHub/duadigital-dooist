@@ -59,8 +59,8 @@ const Home = () => {
             </div>
           </div>
         ) : (
-          <div className="md:mx-20 mx-4 pt-20">
-            <div className="md:grid-cols-4 grid gap-4">
+          <div className="mx-4 pt-20 md:mx-20">
+            <div className="grid gap-4 md:grid-cols-4">
               {allTodos?.map((val) => {
                 return (
                   <TodoCard
@@ -74,7 +74,7 @@ const Home = () => {
             </div>
             <button
               onClick={() => push(`/todo-list?id=${uuid()}`)}
-              className="animate-in slide-in-from-right-96 absolute bottom-8 right-8 z-10 rounded-full bg-black p-6 duration-700 ease-out"
+              className="fixed bottom-8 right-8 z-10 rounded-full bg-black p-6 duration-700 ease-out animate-in slide-in-from-right-96"
             >
               <Image src={plus} alt="plus-icon" className="w-6" priority />
             </button>

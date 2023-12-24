@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <Link
-        className={`md:mx-20 animate-in fade-in-10 fixed z-10 mx-4 flex gap-2 pt-6 duration-700 ease-in-out before:opacity-5`}
+        className={`fixed z-10 mx-4 flex w-full items-center gap-2 bg-white pb-5 pt-6 duration-700 ease-in-out animate-in fade-in-10 before:opacity-5 md:mx-20`}
         href="/home"
       >
         <Image src={logo} alt="logo" priority />
