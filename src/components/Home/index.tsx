@@ -59,7 +59,7 @@ const Home = () => {
             </div>
           </div>
         ) : (
-          <div className="mx-4 pt-20 md:mx-20">
+          <div className="mx-4 pt-5 md:mx-20">
             <div className="grid gap-4 md:grid-cols-4">
               {allTodos?.map((val) => {
                 return (
